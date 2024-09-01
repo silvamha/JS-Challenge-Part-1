@@ -18,6 +18,10 @@ let myGreeting = () =>{
 }
 myGreeting()
 
-let celsiusToFarenheit = (c) => {
-c = 
+
+// Write a function to convert celsius to farenheit
+let celsiusToFarenheit = (c) =>{
+    return (c * 9/5) + 32
 }
+
+console.log(celsiusToFarenheit(27))
