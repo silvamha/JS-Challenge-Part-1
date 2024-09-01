@@ -6,23 +6,32 @@
 
 let fistName = "Edson";
 let lastname = "Silva";
-let fullName = `${fistName} ${lastname}`
+let fullName = `${fistName} ${lastname}`;
 
-console.log(fullName)
+console.log(fullName);
 
-let name = "Linda"
-let greeting = "Hi There"
+let name = "Linda";
+let greeting = "Hi There";
 
-let myGreeting = () =>{
-    console.log(`${greeting} ${name}!`)
-}
-myGreeting()
-
+let myGreeting = () => {
+  console.log(`${greeting} ${name}!`);
+};
+myGreeting();
 
 // Write a function to convert celsius to farenheit
-let celsiusToFarenheit = (c) =>{
-    return (c * 9/5) + 32
-}
+let celsiusToFarenheit = (c) => {
+  return (c * 9) / 5 + 32;
+};
 
-console.log(celsiusToFarenheit(27))
+console.log(celsiusToFarenheit(27));
 
+let isEven = (num) => {
+  if (num % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  } 
+};
+
+let number = isEven(15)
+console.log(number)
