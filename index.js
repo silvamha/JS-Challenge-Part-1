@@ -6,5 +6,18 @@
 
 let fistName = "Edson";
 let lastname = "Silva";
+let fullName = `${fistName} ${lastname}`
 
-console.log(`${fistName} ${lastname}`);
+console.log(fullName)
+
+let name = "Linda"
+let greeting = "Hi There"
+
+let myGreeting = () =>{
+    console.log(`${greeting} ${name}!`)
+}
+myGreeting()
+
+let celsiusToFarenheit = (c) => {
+c = 
+}
