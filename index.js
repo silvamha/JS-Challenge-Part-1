@@ -25,3 +25,4 @@ let celsiusToFarenheit = (c) =>{
 }
 
 console.log(celsiusToFarenheit(27))
+
